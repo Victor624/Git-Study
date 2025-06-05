@@ -1,0 +1,24 @@
+Resumen
+
+Para entender cómo Git y GitHub funcionan en conjunto en un flujo de trabajo profesional, debemos recordar que Git es una herramienta de control de versiones basada en comandos, mientras que GitHub facilita su implementación al ofrecer una plataforma que permite manejar proyectos de Git de forma colaborativa y accesible en la nube.
+
+¿Cuál es la relación entre Git y GitHub?
+Aunque Git y GitHub son complementarios, no fueron creados por los mismos desarrolladores ni comparten una dependencia directa. Git es el sistema de control de versiones en sí mismo, mientras que GitHub es un servicio que permite alojar repositorios Git en la nube, facilitando el trabajo colaborativo. La única conexión entre ambos es que GitHub permite gestionar proyectos que usan Git para el control de versiones.
+
+¿Cómo se inicia el flujo de trabajo en GitHub?
+Para trabajar en un proyecto en GitHub, en lugar de comenzar con git init en tu máquina local, creas un repositorio en GitHub. Este repositorio vacío se descarga al equipo y, desde ahí, se pueden hacer cambios locales. La estructura básica del flujo de trabajo incluye los siguientes pasos:
+
+Crear un commit: Guardar los cambios realizados localmente.
+Subir cambios a GitHub: Una vez los cambios estén listos, se suben a una rama separada en el repositorio remoto.
+¿Por qué es importante trabajar en ramas?
+Trabajar en una rama separada permite mantener el código principal estable mientras trabajas en nuevas características. Al subir la rama a GitHub, el proceso de Code Review comienza. Otros compañeros revisarán y aprobarán los cambios antes de integrarlos en la rama principal.
+
+¿Qué reglas se pueden seguir para crear tareas?
+Para facilitar la revisión de código y evitar conflictos, es ideal mantener las tareas pequeñas y con un solo objetivo. Esto hace que:
+
+El proceso de revisión sea sencillo.
+Los cambios sean menos propensos a conflictos al integrarse al proyecto principal.
+Algunos equipos imponen reglas como limitar el número de archivos modificados o la cantidad de líneas de código en una tarea, aunque una recomendación básica es “una tarea, un objetivo”.
+
+
+Mostrar menos
